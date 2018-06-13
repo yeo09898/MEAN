@@ -1,0 +1,23 @@
+{
+    "name": "mean",
+    "version": "1.0.0",
+    "description": "MEAN stack authention app",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app"
+    },
+    "dependencies": {
+        "express": "*",
+        "mongoose": "*",
+        "bcryptjs": "*",
+        "cors": "*",
+        "jsonwebtoken": "*",
+        "body-parser": "*",
+        "passport": "*",
+        "passport-jwt": "*"
+    },
+    "keywords": [],
+    "author": "bear",
+    "license": "ISC"
+}
