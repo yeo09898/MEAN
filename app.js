@@ -46,6 +46,10 @@ app.get('/', (req, res) => {
     res.send('Hello World!');
 });
 
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public/index.html'));
+});
+
 //start server
 app.listen(port, () => {
     console.log('Running on Port 3000 ...');
